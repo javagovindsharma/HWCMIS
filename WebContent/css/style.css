@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+.navbar-custom{background:#03827c;}
+.heading{border-bottom: 1px solid #e0dedb;}
+.content{ width:100%; float: left; border:1px solid #d0cdc7; margin-top:20px;padding:20px;}
+.wrap{width:100%; float:left;}
+.lower{width:100%; float:left; margin-top: 20px;}
+.w-100{width:100%; float:left;}
+.w-20{width:20%; float:left;padding-left: 15px; padding-right: 15px;}
+.input-group-whole{position:relative;}
+.ui-datepicker-trigger{position:absolute;right:8px;top:8px;}
+
+@media screen and (max-width:991px){
+	.w-20{width:50% }
+		
+}
+@media screen and (max-width:767px){
+	.w-20{width:100% }
+	.buttonwrapper{text-align:center;}
+	.dt-buttons{text-align:center;}
+	#example_wrapper .col-sm-6:first-child{display:inline-block !important; margin-top:20px;}
+	#example_wrapper .row:first-child{text-align:center !important;
+	}
+	
+		
+}
+

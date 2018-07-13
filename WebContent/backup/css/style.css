@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body, html{width:100%; height:100%; float:left; padding:0; margin:0;}
+body{height:100%; background:url(../images/back.png) top center repeat;}
+.overAll{width:100%; float:left; padding:0; margin:0; height:100%;}
+*{font-family: 'Montserrat', sans-serif;}
+.nav-portion{background:#2a3f54; min-height: 100%; width:20% !important; padding: 0; position:fixed; top:0; left:0; bottom:0; z-index:999;}
+.no-padding{padding-left:0 !important; padding-right:0 !important;}
+.nav-header p{font-size:18px; color:#fff; font-weight:bold;}
+.nav-header{ padding:15px 0; text-align:center;}
+.nav-wrap ul{padding-left:0; margin-bottom:0 !important;}
+.nav-wrap ul li{list-style:none;}
+.nav-wrap ul li a{color:#fff; text-decoration:none; display:block; padding:15px;}
+.nav-wrap ul li a.active{background:#35495d;}
+.img-circle.profile_img {background: #fff;width:60px;}
+.logo-wrapper{float:left; padding-left:15px;}
+.text-wrap{float:left; padding-left:15px; color:#fff;}
+.nav-sub-header{padding: 10px 0 40px 0; width:100%; float:left;}
+.top-bar{background:#ededed;}
+.side-btn{float:right; background:#d9dee4; padding:8px;}
+.side-btn img{width:50px;}
+.right-portion{margin-left: 20%; width:80%; overflow:hidden !important;}
+.dropdown .btn{background:transparent !important; border:none !important;}
+.dropdown-menu{left:-22px;}
+.color-white{color:#fff;}
+
+/*******************************************right-body-portion******************************************/
+.top-heading {
+    background: #5bc0de;
+    color: #fff;
+    padding: 15px 0;
+    padding-left: 0px;
+    text-transform: uppercase;
+    font-size: 18px;
+	position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding-left: 20%;
+	z-index:888;
+}
+.bottom-content{margin-top:35.5px; /*background:#fff;*/ padding:30px; padding-bottom:0;}
+.bottom-content p{text-align:justify;}
+
+/********************************************login*******************************************/
+.upper-login-wrapper{display:table; width:100%; height:100%; /*margin-top:30px;*/}
+.login-box{background:#fff; border:1px solid #f1f1f1; /*width:30%; margin:0 auto;*/ box-shadow: 0px 0px 10px 0px #e0dcdc;}
+.login-wrapper{width:100%; display:table-cell; vertical-align:middle; height:100%;}
+.header-login{width:100%; float:left; padding:15px 0; background:#5bc0de; color:#fff; font-size:20px;}
+.body-login{width:100%; padding:20px 40px; display:inline-block;}
+.login-btn{padding:12px !important; border-radius:0 !important; margin-top:25px; font-size:18px;}
+.login-text{padding: 21px 35px !important; border-radius:0 !important;}
+.wrap_icon{position:relative; width:100%; display:block;}
+.input_icon{position:absolute;top: 12px;left: 15px;}
+.login-topbar{padding-bottom:10px;}
+/********************************/
+.logoimg-wrapper img{background:#fff;}
+.logotext-wrapper h4{font-family: 'Montserrat', sans-serif;background:#fff; display:inline-block; padding:15px; margin:0;font-size: 20px;
+font-weight: bold;}
+.logotext-wrapper p{font-family: 'Montserrat', sans-serif; background:#fff; display:inline-block; padding:0 15px 15px 15px; margin:0;}
+.save-btn{width: 145px;margin-top: 12px; padding: 7px 0 !important;}
+.form-padding{padding: 0px 19px !important;height: 45px}
+/*******************************************/
+.whole2{padding-top:0; padding-bottom:0;}
+.whole2 table thead{background:#35495d; color:#fff;}
+.whole2 table thead tr th{text-align:center;}
+.whole2 table tbody tr td{text-align:center;}
+.margin-top{margin-top:6px;}
+.right-border{border-right:1px solid #fff;}
+.valign{vertical-align: middle !important;}
+.whole2 table tfoot{background:#5bc0de; color:#fff; }
+.whole2 table tfoot tr th{text-align:center;}
+/*.scrollable thead, .scrollable tfoot, .scrollable tbody tr {display:table;width:100%;table-layout:fixed;}
+.scrollable table tbody{ height:200px; display:block; overflow-y:auto; width:100%;}
+.scrollable table thead, .scrollable table tfoot { width: calc( 100% - 1.2em )}
+.scrollable table{width:100%;}*/
+.scrollable thead tr th:first-child, .scrollable tbody tr td:first-child, .scrollable tfoot tr th:first-child{width:10%;}
+.scrollable thead tr th:nth-child(2), .scrollable tbody tr td:nth-child(2), .scrollable tfoot tr th:nth-child(2){width:30%;}
+.scrollable table{height: 260px;overflow: auto; display: block;}
+.scrollable table{margin-bottom:0;}
+.upper-form{background: #fff; box-shadow: 0px 0px 4px 0px #888; padding-top: 24px; margin-bottom: 15px; z-index:777;}
+.bottom_table{background: #fff; box-shadow: 0px 0px 4px 0px #888;}
+.button-wrapper{border-top: 1px solid #c9c5c5;}
+/***********************************************************************************************************/
+/****************************************responsive css*****************************************************/
+/***********************************************************************************************************/
+@media screen and (max-width:767px){
+.login-wrapper{padding-left:30px; padding-right:30px;}		
+}
+@media screen and (max-width:360px){
+.login-wrapper{padding-left:15px; padding-right:15px;}		
+}
